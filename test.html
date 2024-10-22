@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+        h3{
+            color: red;
+            font-style: italic;
+            font-family: "Playwrite GB S";
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+     <!-- Ctrl + ? this is the shortcut to adding a comment to my page-->
+
+     <!-- HEADERS - these are title text on my web page they start from Header 1 to HEader 6 in other words h1 - h6-->
+
+     <h1>HEADER 1</h1>
+     <h2>HEADER 2</h2>
+     <h3>HEADER 3</h3>
+     <h4>HEADER 4</h4>
+     <h5>HEADER 5</h5>
+     <h6>HEADER 6</h1>
+
+
+        <!-- PARAGRAPH this is for my regular text -->
+         <p class="highlight blue">This is a paragraph text can go as long as I want it to be. <br> This line goes to the next line because of the br tag applied </p>
+
+         <!-- hr tag is for horizontal lines -->
+          <hr>
+
+    <!-- SMALL this is for smaller type of paragraphs  -->
+     <small>This is a smaller paragraph</small>
+
+     <!-- anchor tag this is used to create hyperlinks -->
+      <a href="https://hikimaacademy.com/" target="_blank"> This is a absolute link bit leads to an external page</a>
+      <a href="about.html" target="_blank"> This is a relative link</a>
+
+      <img src="assets/img/boy.jpg" alt="the image of a boy" width="200px">
+
+      <img src="https://thumbs.dreamstime.com/b/adorable-young-teenage-boy-waist-up-studio-portrait-isolated-over-white-background-handsome-looking-camera-smile-cheeky-132667620.jpg" alt="the image of a boy" width="200px">
+
+
+      <!-- types of elements
+        block elements
+        inline elements
+         -->
+
+         <!-- LAYOUT TAGS -->
+         <div>
+            <h3>ABOUT YEMI</h3>
+            <p style="color: blue;" class="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et beatae facere illum ducimus hic, incidunt ratione saepe, facilis voluptates, quasi eius recusandae laudantium porro in vel modi culpa velit excepturi. <span class="highlight"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptatibus impedit. Repellendus dolorum nam odit nobis nostrum iste maxime architecto ducimus fuga blanditiis pariatur repudiandae amet veniam, alias tenetur perferendis. </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellendus dolore quia placeat fugiat eaque eum illum, veniam totam in numquam eius! Debitis officia consequuntur labore maxime. Dicta, ea aspernatur! </p>
+         </div>
+
+
+         <!-- ATTRIBUTES 
+         - attributes are always specified in the opening tag
+         - Attributes usually come in name/value pairs like: name="value"
+         -->
+
+         <a href="https://hikimaacademy.com"> <img src="assets/img/boy.jpg" alt="" width="100px"> </a>
+         <a href="mailto:yemi@hikimaacadmey.net"> Send an email to Yemi (yemi@hikimaacadmey.net)</a>
+         <a href="tel:+171234567890"> Call Yemi +171234567890 </a>
+
+
+         <!-- FORMATTING TAGS -->
+          <div>
+
+              <b>This is bold text</b> <br>
+              <strong> This is an important/strong text </strong> <br>
+              <i>this is an italics text</i> <br>
+              <em> This is an emphasized (italics) text</em> <br>
+              <mark> This is a marked text</mark> <br>
+              <small> This is a small text</small> <br>
+              <del> This is a deleted text</del> <br>
+              <ins> This is an inserted text</ins> <br>
+              <sub> This is a subscript text</sub> <br>
+              <sup> This is a superscript text</sup> <br>
+            </div>
+
+
+    <!-- HTML LISTS -->
+     <!-- list is how we group a set of related items 
+      1. Unordered list 
+      2. Ordered list -->
+
+
+      <h3> UNORDERED LIST </h3>
+      <ul>
+        <li> Item 1 </li>
+        <li> Item 2 </li>
+        <li> Item 3 </li>
+        <li> Item 4 </li>
+        <li> Item 5 </li>
+      </ul>
+
+
+      <h3>  ORDERED LIST</h3>
+      <ol>
+        <li> Item A </li>
+        <li> Item B </li>
+        <li> Item C </li>
+        <li> Item D </li>
+        <li> Item E </li>
+      </ol>
+
+      <!-- FORMS -->
+       <form>
+        <label for="name"> First Name </label>
+        <input type="text" name="name">
+        <br>
+        <label for="email"> Email </label>
+        <input type="email" name="email">
+        <br>
+        <label for="phone"> Phone number</label>
+        <input type="tel" name="phone">
+        <br>
+        <label for="age">Age</label>
+        <input type="number" name="">
+        <br>
+        <label for="submissionDate"> Submission Date</label>
+        <input type="date" name="submissionDate" id="">
+        <br>
+        <label for="gender"> Male</label>
+        <input type="radio" name="gender" id="">
+
+        <label for="gender"> Female</label>
+        <input type="radio" name="gender" id="">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="">
+        <br>
+        <input type="checkbox" name="checkbox" id=""> 
+        <label for="checkbox"> I agree</label>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <!-- TABLE -->
+     <table>
+        <thead>
+            <td>Heading 1</td>
+            <td>Heading 2</td>
+            <td>Heading 3</td>
+            <td>Heading 4</td>
+            <td>Heading 5</td>
+        </thead>
+        <tr>
+            <td> Item 1 </td>
+            <td> Item 2 </td>
+            <td> Item 3 </td>
+            <td> Item 4 </td>
+            <td> Item 5 </td>
+        </tr>
+        <tr>
+            <td> Item 1 </td>
+            <td> Item 2 </td>
+            <td> Item 3 </td>
+            <td> Item 4 </td>
+            <td> Item 5 </td>
+        </tr>
+     </table>
+</body>
+</html>

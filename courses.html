@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COURSES</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <!-- the header and navigation lives here -->
+    <header class="head">
+      <div class="logo">
+          <img src="assets/img/images.png" alt="logo" class="logo-img">
+          <h3 class="logo-text">HikimaClone</h3>
+      </div>
+      
+
+      <nav id="navigation">
+          <ul class="navigation-group">
+              <li class="navigation-item"> <a class="nav-link" href="index.html"> Home </a> </li>
+              <li class="navigation-item"> <a class="nav-link" href="contact.html"> Contact</a> </li>
+              <li class="navigation-item"> <a class="nav-link" href="about.html"> About Us </a> </li>
+              <li class="navigation-item"> <a class="nav-link" href="courses.html"> Our Courses</a> </li>
+          </ul>
+      </nav>
+  </header>
+  <!-- the header ends here -->
+
+  <h1> 
+    THIS IS MY COURSE PAGE</h1>
+
+    <form action="assets/php/addData.php" method="post">
+      <label for="name">Student Name</label>
+      <input type="text" id="name" name="name" />
+      <label for="grade">Student Grade</label>
+      <input type="text" id="grade" name="grade" />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+
+
+    <div class="resultscontainer">
+      <button id="getDataButton">Get Data</button>
+      <div id="results"></div>
+    </div>
+
+    <script src="assets/js/data.js"></script>
+  </body>
+</html>
